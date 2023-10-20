@@ -278,7 +278,7 @@ uint8 UTF8GenericPropertyBigOneByte(const UTF8PropObj* st,
   const uint8* lsrc = *src;
   const uint8* Tbl_0 = &st->state_table[st->state0];
   const uint8* Tbl = Tbl_0;
-  int e;
+  uint32_t e;
   int eshift = st->entry_shift;
 
   // Short series of tests faster than switch, optimizes 7-bit ASCII

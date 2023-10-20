@@ -643,7 +643,8 @@ typedef enum {
   X_Sharada                    = 611,  // xx-Shrd
   X_Sora_Sompeng               = 612,  // xx-Sora
   X_Takri                      = 613,  // xx-Takr
-  NUM_LANGUAGES
+  NUM_LANGUAGES,
+  X_65535                      = -1,   // xx
 } Language;
 
 }  // namespace CLD2
